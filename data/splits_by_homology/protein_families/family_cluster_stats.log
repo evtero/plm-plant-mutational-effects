@@ -1,0 +1,16 @@
+[INFO] Input: benchmarking/inputs/total_metadata_seqids_family.tsv | Output: benchmarking/inputs/family_cluster_stats | Group col: family_id
+
+[CHECK]
+  total_rows: 12865
+  duplicate_seq_rows: 6725
+  unique_seq_id_retained: 6140
+  clusters_detected: 1585
+  assigned_sequences: 6140
+
+[OUTPUT]
+  Summary table: benchmarking/inputs/family_cluster_stats/summary_by_annotation_type.tsv
+  All annotations table: benchmarking/inputs/family_cluster_stats/all_cluster_annotations.tsv
+  Cluster-level table: benchmarking/inputs/family_cluster_stats/cluster_level_summary.tsv
+  Dominant purity bins: benchmarking/inputs/family_cluster_stats/dominant_purity_bins.tsv
+  Annotation dispersion/species diversity: benchmarking/inputs/family_cluster_stats/annotation_dispersion_species.tsv
+  Run summary: benchmarking/inputs/family_cluster_stats/run_summary.log

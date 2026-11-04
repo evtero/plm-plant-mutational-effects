@@ -1,0 +1,36 @@
+[INFO] Input file: benchmarking/inputs/total_metadata_seqids_family.tsv
+[INFO] Output directory: benchmarking/inputs/family_cluster_stats
+[INFO] Group column: family_id
+
+[CHECK]
+Input rows                      : 12865
+Unique seq_id retained          : 6140
+Duplicate rows skipped by seq_id: 6725
+Rows skipped with empty seq_id  : 0
+Unique seq_id without cluster   : 0
+Clusters detected               : 1585
+Sequences assigned to clusters  : 6140
+
+[CHECK] Annotation availability by column
+interpro_family_names: with_annotation=5202, without_annotation=938, unique_seq_annotations_counted=7072
+interpro_domain_names: with_annotation=3822, without_annotation=2318, unique_seq_annotations_counted=7831
+interpro_homologous_superfamily_names: with_annotation=4654, without_annotation=1486, unique_seq_annotations_counted=7128
+interpro_conserved_site_names: with_annotation=1369, without_annotation=4771, unique_seq_annotations_counted=1430
+interpro_repeat_names: with_annotation=273, without_annotation=5867, unique_seq_annotations_counted=366
+interpro_active_site_names: with_annotation=507, without_annotation=5633, unique_seq_annotations_counted=553
+interpro_binding_site_names: with_annotation=408, without_annotation=5732, unique_seq_annotations_counted=431
+interpro_ptm_names: with_annotation=24, without_annotation=6116, unique_seq_annotations_counted=24
+pfam_names: with_annotation=5755, without_annotation=385, unique_seq_annotations_counted=8787
+pfam_clan_names: with_annotation=0, without_annotation=6140, unique_seq_annotations_counted=0
+supfam_names: with_annotation=4713, without_annotation=1427, unique_seq_annotations_counted=6462
+go_F_terms: with_annotation=5064, without_annotation=1076, unique_seq_annotations_counted=12918
+go_P_terms: with_annotation=5231, without_annotation=909, unique_seq_annotations_counted=15543
+go_C_terms: with_annotation=5435, without_annotation=705, unique_seq_annotations_counted=12698
+
+[OUTPUT]
+Summary table: benchmarking/inputs/family_cluster_stats/summary_by_annotation_type.tsv
+All annotations table: benchmarking/inputs/family_cluster_stats/all_cluster_annotations.tsv
+Cluster-level table: benchmarking/inputs/family_cluster_stats/cluster_level_summary.tsv
+Dominant purity bins: benchmarking/inputs/family_cluster_stats/dominant_purity_bins.tsv
+Annotation dispersion/species diversity: benchmarking/inputs/family_cluster_stats/annotation_dispersion_species.tsv
+Run summary: benchmarking/inputs/family_cluster_stats/run_summary.log

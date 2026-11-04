@@ -1,0 +1,14 @@
+annotation_type	n_clusters	pct_purity_1.0	pct_90_100	pct_80_90	pct_below_80
+go_C_terms	1491	80.42	2.35	2.28	14.96
+go_F_terms	1288	81.99	2.95	3.03	12.03
+go_P_terms	1407	79.03	2.42	2.42	16.13
+interpro_active_site_names	65	53.85	6.15	7.69	32.31
+interpro_binding_site_names	59	61.02	1.69	1.69	35.59
+interpro_conserved_site_names	266	64.66	2.26	7.89	25.19
+interpro_domain_names	1012	87.06	2.67	2.87	7.41
+interpro_family_names	1364	84.53	2.49	2.35	10.63
+interpro_homologous_superfamily_names	1087	86.66	3.77	2.94	6.62
+interpro_ptm_names	3	66.67	33.33	0.00	0.00
+interpro_repeat_names	56	75.00	1.79	0.00	23.21
+pfam_names	1453	88.44	2.89	2.82	5.85
+supfam_names	1088	86.58	3.68	2.94	6.80

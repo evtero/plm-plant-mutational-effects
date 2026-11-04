@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+results/
+data/splits_by_homology/split_*/*_inputs/subst_files/
+data/splits_by_homology/split_*/*_inputs/chunks/

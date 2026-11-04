@@ -1,0 +1,9 @@
+torch==2.1.2
+fair-esm==2.0.0
+biopython==1.87
+numpy==1.25.1
+pandas==2.0.3
+scikit-learn==1.8.0
+xgboost==3.2.0
+joblib==1.2.0
+codecarbon==3.2.6
