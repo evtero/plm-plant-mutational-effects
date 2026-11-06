@@ -1,6 +1,6 @@
-# Evaluating a protein language model against classic conservation-based tools for mutational effect prediction in plants
+# Evaluating protein language model approaches against classic conservation-based tools for mutational effect prediction in plants
 
-This repository contains the code of the paper *Evaluating a protein language model against classic conservation-based tools for mutational effect prediction in plants* (Pardo-Otero E, Bolón-Canedo V, and Piñeiro R).
+This repository contains the code of the paper *Evaluating protein language model approaches against classic conservation-based tools for mutational effect prediction in plants* (Pardo-Otero E, Bolón-Canedo V, and Piñeiro R).
 
 ```
 data/                  dataset, dataset protein families and the 5 homology-controlled splits
