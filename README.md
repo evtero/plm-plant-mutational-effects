@@ -1,4 +1,4 @@
-# Evaluating protein language model approaches for mutational effect prediction in plants
+# Evaluating a protein language model against classic conservation-based tools for mutational effect prediction in plants
 
 This repository contains the code of the paper *Evaluating protein language models approaches for mutational effect prediction in plants* (Pardo-Otero E, Bolón-Canedo V, and Piñeiro R).
 
